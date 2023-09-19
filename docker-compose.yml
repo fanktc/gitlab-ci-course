@@ -1,0 +1,6 @@
+#node alpine image to deploy docusaurus instance
+
+services:
+  docu:
+    image: node-alpine
+    command: sudo npm install --global docusaurus-init
