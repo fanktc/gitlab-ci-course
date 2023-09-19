@@ -1,3 +1,3 @@
 to build the image, use:
 
-docker build --network host .
+docker build --network host -t docusaurus .
